@@ -79,14 +79,14 @@
                 iconr: '.czrightbut'
             })
         })
-         var left=$('.container').eq(0).offset().left-111;
+         var left=$('.container').eq(0).offset().left-46;
         $("#elevator").css('left',left);
         var floorSet = new Array();
-        ! function() {
-            for (var i = 0; i < 7; i++) {
-                floorSet[i] = $($(".floorflag").get(i)).offset().top - 70;
-            }
+       
+        for (var i = 0; i < 7; i++) {
+            floorSet[i] = $($(".floorflag").get(i)).offset().top - 70;
         }
+        
         $(window).scroll(function() {
             var Top = $(window).scrollTop();
             if (Top < floorSet[0] - 200) {
@@ -120,34 +120,11 @@
                 $($("#elevator li").get(6)).addClass("current");
             }
         });
-//ie8的placeholder属性
-         $(function() {
-             if( !('placeholder' in document.createElement('input')) ){   
-
-            $('input[placeholder],textarea[placeholder]').each(function(){    
-              var that = $(this),    
-              text= that.attr('placeholder');    
-              if(that.val()===""){    
-                that.val(text).addClass('placeholder');    
-              }    
-              that.focus(function(){    
-                if(that.val()===text){    
-                  that.val("").removeClass('placeholder');    
-                }    
-              })    
-              .blur(function(){    
-                if(that.val()===""){    
-                  that.val(text).addClass('placeholder');    
-                }    
-              })    
-              .closest('form').submit(function(){    
-                if(that.val() === text){    
-                  that.val('');    
-                }    
-              });    
-            });    
-          }   
-   })
+        $("#elevator li").click(function(){
+            var $this = $(this);
+            var $thisfnum = $this.attr("floornums");
+            $('html,body').animate({scrollTop: $(".floorflag[floornums='"+$thisfnum+"']").offset().top}, 200)
+        })
     function restore(c_x){
     if(c_x){
         var numc_x = parseInt(c_x);

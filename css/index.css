@@ -1131,8 +1131,7 @@ line-height: 22px;
 .left-nav{
     width: 46px;
     position: fixed;
-   left: 10%;
-    top: 50%;
+    top: 40%;
     margin-top: -150px;
     z-index: 99999;
 }
@@ -1206,3 +1205,13 @@ line-height: 22px;
     height: 40px;
     padding: 4px 5px 0px;
 }
+
+#elevator li .etitle{
+        display: none;
+    }
+#elevator li.current .icon_a{
+        display: none;
+    }
+#elevator li.current .etitle{
+        display: block;
+    }

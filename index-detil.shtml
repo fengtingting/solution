@@ -131,10 +131,10 @@
                 </div> 
             </div>
             <div class="solution-wrap solution-wrap-t">
-                <div class="solution-wrap-l" id="solutionTab">
+                <div class="solution-wrap-l" >
                     <div class="solution-cont">
                         <div class="solution-detil-list">
-                            <div class="detil-hd">
+                            <div class="detil-hd floorflag" floornums="1">
                                 <h2>方案概况</h2>
                             </div>
                             <div class="detil-bd">
@@ -146,7 +146,7 @@
                          </div> 
 <!-- 方案概况 方案介绍 系统方块图 规格说明 参考文件 开发工具 服务介绍 -->
                          <div class="solution-detil-list">
-                            <div class="detil-hd">
+                            <div class="detil-hd floorflag" floornums="2">
                                 <h2>方案介绍</h2>
                             </div>
                             <div class="detil-bd">
@@ -156,43 +156,58 @@
                             </div>
                          </div> 
                          <div class="solution-detil-list">
-                            <div class="detil-hd">
+                            <div class="detil-hd floorflag" floornums="3">
                                 <h2>系统方块图</h2>
                             </div>
                             <div class="detil-bd">
+                            <div class="detil-img">
+                                    <img src="http://img20.360buyimg.com/da/jfs/t2854/72/4325554972/74630/e7a17fa6/57b6c835Neaf2b968.jpg">
+                                </div>
                                 
                             </div>
                          </div>
 
                          <div class="solution-detil-list">
-                            <div class="detil-hd">
+                            <div class="detil-hd floorflag" floornums="4">
                                 <h2>规格说明</h2>
                             </div>
                             <div class="detil-bd">
+                            <div class="detil-img">
+                                    <img src="http://img20.360buyimg.com/da/jfs/t2854/72/4325554972/74630/e7a17fa6/57b6c835Neaf2b968.jpg">
+                                </div>
                                 
                             </div>
                          </div>
                          <div class="solution-detil-list">
-                            <div class="detil-hd">
-                                <h2>参考文件s</h2>
+                            <div class="detil-hd floorflag" floornums="5">
+                                <h2>参考文件</h2>
                             </div>
                             <div class="detil-bd">
+                            <div class="detil-img">
+                                    <img src="http://img20.360buyimg.com/da/jfs/t2854/72/4325554972/74630/e7a17fa6/57b6c835Neaf2b968.jpg">
+                                </div>
                                 
                             </div>
                          </div>
-                         <div class="solution-detil-list">
-                            <div class="detil-hd">
+                         <div class="solution-detil-list" >
+                            <div class="detil-hd floorflag" floornums="6">
                                 <h2>开发工具</h2>
                             </div>
                             <div class="detil-bd">
+                            <div class="detil-img">
+                                    <img src="http://img20.360buyimg.com/da/jfs/t2854/72/4325554972/74630/e7a17fa6/57b6c835Neaf2b968.jpg">
+                                </div>
                                 
                             </div>
                          </div>
                          <div class="solution-detil-list">
-                            <div class="detil-hd">
+                            <div class="detil-hd floorflag" floornums="7">
                                 <h2>服务介绍</h2>
                             </div>
                             <div class="detil-bd">
+                            <div class="detil-img">
+                                    <img src="http://img20.360buyimg.com/da/jfs/t2854/72/4325554972/74630/e7a17fa6/57b6c835Neaf2b968.jpg">
+                                </div>
                                 
                             </div>
                          </div>
@@ -262,50 +277,51 @@
                 </p>
             </div>
         </div>
-<!-- 方案概况  方案介绍 系统方块 规格说明 参考文件 开发工具 服务介绍 -->
-        <div class="left-nav" id="left-nav">
+
+    <!-- 左侧悬浮 -->
+        <div class="left-nav hide" id="elevator">
             <ul>
-                <li class="li_1">
-                    <!-- <a href="http://d.itcast.cn/3" target="_blank">
+                <li class="li_1" floornums="1">
+                    <a href="javascript:void(0)"  class='icon_a'>
                         <span class="icon_s icon_s1">&nbsp;</span>
-                    </a> -->
-                    <a class="etitle" href="" target="_blank">方案概况</a>
+                    </a>
+                    <a class="etitle" href="javascript:void(0)" target="_blank">方案概况</a>
                 </li>
-                <li class="li_2">
-                    <a href="http://d.itcast.cn/3" target="_blank">
+                <li class="li_2" floornums="2">
+                    <a href="javascript:void(0)"  class='icon_a'>
                         <span class="icon_s icon_s2">&nbsp;</span>
                     </a>
-                    <!-- <a href="" target="_blank">方案介绍</a> -->
+                     <a class="etitle" href="javascript:void(0)" target="_blank">方案介绍</a>
                 </li>
-                <li class="li_3">
-                    <a href="http://d.itcast.cn/3" target="_blank">
+                <li class="li_3" floornums="3">
+                    <a href="javascript:void(0)"  class='icon_a'>
                         <span class="icon_s icon_s3">&nbsp;</span>
                     </a>
-                    <!-- <a href="" target="_blank">系统方块</a> -->
+                     <a class="etitle" href="javascript:void(0)" target="_blank">系统方块</a>
                 </li>
-                <li class="li_4">
-                    <a href="http://d.itcast.cn/3" target="_blank">
+                <li class="li_4" floornums="4">
+                    <a href="javascript:void(0)"  class='icon_a'>
                         <span class="icon_s icon_s4">&nbsp;</span>
                     </a>
-                    <!-- <a href="" target="_blank">规格说明</a> -->
+                    <a class="etitle" href="javascript:void(0)" target="_blank">规格说明</a>
                 </li>
-                <li class="li_5">
-                    <a href="http://d.itcast.cn/3" target="_blank">
+                <li class="li_5" floornums="5">
+                    <a href="javascript:void(0)"  class='icon_a'>
                         <span class="icon_s icon_s5">&nbsp;</span>
                     </a>
-                    <!-- <a href="" target="_blank">参考文件</a> -->
+                      <a class="etitle" href="javascript:void(0)" target="_blank">参考文件</a>
                 </li>
-                <li class="li_6">
-                    <a href="http://d.itcast.cn/3" target="_blank">
+                <li class="li_6" floornums="6">
+                    <a href="javascript:void(0)"  class='icon_a'>
                         <span class="icon_s icon_s6">&nbsp;</span>
                     </a>
-                    <!-- <a href="" target="_blank">开发工具</a> -->
+                     <a class="etitle" href="javascript:void(0)" target="_blank">开发工具</a>
                 </li>
-                <li class="li_7">
-                    <a href="http://d.itcast.cn/3" target="_blank">
+                <li class="li_7" floornums="7">
+                    <a href="javascript:void(0)"  class='icon_a'>
                         <span class="icon_s icon_s7">&nbsp;</span>
                     </a>
-                    <!-- <a href="" target="_blank">服务介绍</a> -->
+                     <a class="etitle" href="javascript:void(0)" target="_blank">服务介绍</a>
                 </li>
             </ul>
 

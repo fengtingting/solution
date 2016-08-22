@@ -160,7 +160,7 @@
                         <p><span class="tab-t active">全部</span><span class="tab-t">智慧城市</span><span class="tab-t ">智能家居</span><span class="tab-t">智能安防</span></p>
                     </div>
                     <div class="solution-bd tab-content">
-                        <div class="silder-area tab-c">
+                        <div class="silder-area tab-c active">
                             <div class="slider-list">
                                 <div class="slider-list-img">
                                     <img src="./images/listpic1.jpg">
@@ -283,7 +283,7 @@
                                     <img src="./images/listpic1.jpg">
                                 </div>
                                 <div class="slider-list-con">
-                                    <h2><a target="_blank" href="">充电桩 碳化硅 电源模块15KW系列（全部）</a></h2>
+                                    <h2><a target="_blank" href="">充电桩 碳化硅 电源模块15KW系列（一）</a></h2>
                                     <p>提供方：<span class="company">北京美信科技有限公司</span>&nbsp&nbsp&nbsp&nbsp时间：<span class="time">2016-07-05</span></p>
                                     <p class="text-con"><a href="">通讯接口 CAN＆485； 并机数量 60 个； 通讯告警； 告警与状态 通过 CAN 总线或 485 总线上报监控后台或者面板 LED 显示上报监控后台或者面板 LED 显示</a></p>
                                     <div class="chat-trad">
