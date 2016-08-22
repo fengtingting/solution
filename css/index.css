@@ -1131,7 +1131,7 @@ line-height: 22px;
 .left-nav{
     width: 46px;
     position: fixed;
-    left: 0;
+   left: 10%;
     top: 50%;
     margin-top: -150px;
     z-index: 99999;
@@ -1197,4 +1197,12 @@ line-height: 22px;
 }
 .left-nav li.li_7:hover span.icon_s7{
     background-position: -46px -264px;
+}
+
+.left-nav .li_1 a.etitle,.left-nav .li_2 a.etitle,.left-nav .li_3 a.etitle,.left-nav .li_4 a.etitle,.left-nav .li_5 a.etitle,.left-nav .li_6 a.etitle,.left-nav .li_7 a.etitle{
+    background: #3776d3;
+    color: #fff;
+    width: 36px;
+    height: 40px;
+    padding: 4px 5px 0px;
 }

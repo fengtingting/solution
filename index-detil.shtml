@@ -269,43 +269,43 @@
                     <!-- <a href="http://d.itcast.cn/3" target="_blank">
                         <span class="icon_s icon_s1">&nbsp;</span>
                     </a> -->
-                    <a class="etitle" href="" target="_blank">方案<br>概况</a>
+                    <a class="etitle" href="" target="_blank">方案概况</a>
                 </li>
                 <li class="li_2">
                     <a href="http://d.itcast.cn/3" target="_blank">
                         <span class="icon_s icon_s2">&nbsp;</span>
                     </a>
-                    <a href="" target="_blank">方案介绍</a>
+                    <!-- <a href="" target="_blank">方案介绍</a> -->
                 </li>
                 <li class="li_3">
                     <a href="http://d.itcast.cn/3" target="_blank">
                         <span class="icon_s icon_s3">&nbsp;</span>
                     </a>
-                    <a href="" target="_blank">系统方块</a>
+                    <!-- <a href="" target="_blank">系统方块</a> -->
                 </li>
                 <li class="li_4">
                     <a href="http://d.itcast.cn/3" target="_blank">
                         <span class="icon_s icon_s4">&nbsp;</span>
                     </a>
-                    <a href="" target="_blank">规格说明</a>
+                    <!-- <a href="" target="_blank">规格说明</a> -->
                 </li>
                 <li class="li_5">
                     <a href="http://d.itcast.cn/3" target="_blank">
                         <span class="icon_s icon_s5">&nbsp;</span>
                     </a>
-                    <a href="" target="_blank">参考文件</a>
+                    <!-- <a href="" target="_blank">参考文件</a> -->
                 </li>
                 <li class="li_6">
                     <a href="http://d.itcast.cn/3" target="_blank">
                         <span class="icon_s icon_s6">&nbsp;</span>
                     </a>
-                    <a href="" target="_blank">开发工具</a>
+                    <!-- <a href="" target="_blank">开发工具</a> -->
                 </li>
                 <li class="li_7">
                     <a href="http://d.itcast.cn/3" target="_blank">
                         <span class="icon_s icon_s7">&nbsp;</span>
                     </a>
-                    <a href="" target="_blank">服务介绍</a>
+                    <!-- <a href="" target="_blank">服务介绍</a> -->
                 </li>
             </ul>
 
