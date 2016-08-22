@@ -552,23 +552,23 @@ user-select: none;*/
     padding-top: 56px;
     
 }
-.silier-wrap .service-menu .service-wrap{
+.silier-wrap .service-menu .service-wrap, .detil-r .service-wrap {
     width: 170px;
     margin: 0 auto;
 }
-.silier-wrap .service-menu h2.menu-tit{
+.silier-wrap .service-menu h2.menu-tit,.detil-r .service-wrap h2.menu-tit{
     font-size: 24px;
     color: #3776d3;
     height: 50px;
     line-height: 50px;
 }
-.silier-wrap .service-menu p.menu-adv{
+.silier-wrap .service-menu p.menu-adv,.detil-r .service-wrap p.menu-adv{
     font-size: 14px;
     line-height: 22px;
     color: #383838;
     margin-bottom: 15px;
 }
-.silier-wrap .service-menu .service-wrap a{
+.silier-wrap .service-menu .service-wrap a,.detil-r .service-wrap a,.detil-list-con .ck-price .jion-shop a{
     width: 125px;
     height: 30px;
     border-radius: 3px;
@@ -579,12 +579,15 @@ user-select: none;*/
     margin-bottom: 15px;
     font-size: 14px;
 }
-.silier-wrap .service-menu .service-wrap a:hover{
+.silier-wrap .service-menu .service-wrap a:hover,.detil-r .service-wrap a:hover,.detil-list-con .ck-price .jion-shop a:hover{
     background: #3776d3;
     color: #fff;
     width: 127px;
     height: 32px;
     border: 0 none;
+}
+.detil-r .service-wrap{
+    text-align: center;
 }
 
 /*全部智慧城市智能家居智能安防*/
@@ -660,7 +663,7 @@ border-bottom: 0 none;
 .solution-wrap-l .solution-bd .silder-area .slider-list .slider-list-con p a{
     color: #999;
 }
-.solution-wrap-l .solution-bd .silder-area .slider-list .slider-list-con p a:hover{
+.solution-wrap-l .solution-bd .silder-area .slider-list .slider-list-con p a:hover,.solution-wrap-l .load-more a:hover{
     color: #3776d3;
 }
 .solution-wrap-l .solution-bd .silder-area .slider-list .slider-list-con .text-con{
@@ -677,7 +680,12 @@ border-bottom: 0 none;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 70px;
+    font-size: 14px;
 
+}
+
+.solution-wrap-l .load-more a{
+    color: #999;
 }
 .chat-trad {
     font-size: 14px;
@@ -700,7 +708,7 @@ border-bottom: 0 none;
     font-weight: normal;
 }
 .solution-wrap .solution-wrap-r{
-    height: 2000px;
+    height: auto;
     width: 330px;
     float: right;
 }
@@ -919,11 +927,274 @@ border-bottom: 0 none;
     border-bottom: 0 none;
 }
 
-/*.tab-content .tab-c {
+.tab-content .tab-c {
     display: none;
 }
 
 .tab-content .tab-c.active {
     display: block;
 }
-*/
+.solution-wrap .tab-content .active {
+    display: block;
+}
+
+/*解决方案列表页开始*/
+.menu-clear{
+    height: 30px;
+}
+.solution-cont .solution-cont-list{
+    height: 188px;
+    border-bottom: 1px dashed #e6e6e6;
+
+}
+.solution-cont .solution-cont-list h2{
+    height: 48px;
+    line-height: 63px;
+    font-size: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+.solution-cont .solution-cont-list h2 a{
+    color: #383838;
+}
+.solution-cont .solution-cont-list h2 a:hover{
+    color: #3776d3;
+}
+.solution-cont .solution-cont-list p{
+    font-size: 14px;
+    color: #999;
+    line-height: 24px;
+}
+.solution-cont .solution-cont-list .list-tit{
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+}
+.solution-cont .solution-cont-list:last-child{
+    border-bottom: 0 none;
+
+}
+.solution-wrap-t{
+    margin-top: 20px;
+}
+
+/*详情页*/
+.head-nav{
+    height: 30px;
+    line-height: 30px;
+}
+.head-nav a{
+    font-size: 14px;
+    color: #3776d3;
+}
+.head-nav a.current{
+    color: #999;
+}
+.detil-wrap{
+    height: 300px;
+}
+.detil-wrap .detil-l{
+    width: 840px;
+    padding-right: 30px;
+    height: 300px;
+    float: left;
+    position: relative;
+}
+.detil-wrap .detil-r{
+    width: 330px;
+    background:#f8f8f8;
+    float: left;
+   padding-top: 56px;
+       height: 244px;
+}
+
+.detil-wrap .detil-l .detil-t{
+height: 97px;
+width: 840px;
+border-bottom: 1px solid #e6e6e6;
+}
+.detil-wrap .detil-l .detil-t h2{
+font-size: 20px;
+height: 40px;
+line-height: 45px;
+white-space: nowrap;
+text-overflow: ellipsis;
+overflow: hidden;
+
+}
+.detil-wrap .detil-l .detil-t h2 a{
+    color: #383838;
+}
+.detil-wrap .detil-l .detil-t h2 a:hover,.detil-list .detil-list-con p a:hover{
+    color: #3776d3;
+}
+.detil-wrap .detil-l .detil-t p{
+    font-size: 14px;
+    color: #999;
+    height: 20px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+.detil-l .Online-talk .icon-talk{
+    width: 22px;
+    height: 18px;
+    background: url(../images/zx.png) 0 0 no-repeat;
+    display: inline-block;
+}
+.detil-l  .Online-talk {
+    font-size: 14px;
+    position: absolute;
+    right: 60px;
+    top: 35px;
+}
+.detil-l  .Online-talk a{
+    color: #3776d3;
+}
+.detil-list{
+    margin-top: 30px;
+}
+
+.detil-list .detil-list-img{
+width: 238px;
+height: 156px;
+float: left;
+border:1px solid #e6e6e6;
+}
+.detil-list .detil-list-con{
+    float: left;
+    width: 543px;
+    height: 156px;
+    color: #999;
+    margin-left: 30px;
+}
+.detil-list .detil-list-con p{
+    font-size: 14px;
+    line-height: 22px;
+    height: 66px;
+    overflow: hidden;
+}
+.detil-list .detil-list-con p a{
+    color: #999;
+}
+.detil-list .detil-list-con p strong{
+    font-size: 18px;
+    color: #ff0000;
+}
+.detil-list-con .ck-price{
+    position: relative;
+        margin-top: 60px;
+
+}
+.detil-list-con .ck-price .jion-shop{
+position: absolute;
+bottom: 5px;
+right: -5px;
+text-align: center;
+
+}
+.detil-list-con .ck-price .jion-shop a{
+    margin-right: 10px;
+}
+.solution-cont .solution-detil-list .detil-hd{
+    height: 46px;
+    line-height: 46px;
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 16px;
+    color: #383838;
+    margin-bottom: 25px;
+
+}
+.solution-cont .solution-detil-list .detil-bd p{
+font-size: 14px;
+color: #999;
+line-height: 22px;
+}
+.solution-cont .solution-detil-list .detil-bd .detil-img {
+    border: 1px solid #e6e6e6;
+    text-align: center;
+
+}
+.solution-cont .solution-detil-list .detil-bd .detil-img img{
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+/*左侧导航*/
+.left-nav{
+    width: 46px;
+    position: fixed;
+    left: 0;
+    top: 50%;
+    margin-top: -150px;
+    z-index: 99999;
+}
+.left-nav .li_1 a,.left-nav .li_2 a,.left-nav .li_3 a,.left-nav .li_4 a,.left-nav .li_5 a,.left-nav .li_6 a,.left-nav .li_7 a{
+    width: 46px;
+    height: 44px;
+    /*border: 1px solid #E0E0E0;*/
+    margin-bottom: -1px;
+    background: #f8f8f8;
+    position: relative;
+    z-index: 99999;
+    margin-bottom: 1px;
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+}
+.left-nav li span.icon_s {
+    display: block;
+    width: 46px;
+    height: 44px;
+    background: url(../images/lt-sprite.png) no-repeat left top;
+}
+.left-nav li span.icon_s2{
+    background-position: 0 -44px;
+}
+.left-nav li span.icon_s3{
+    background-position: 0 -88px;
+}
+.left-nav li span.icon_s4{
+    background-position: 0 -132px;
+}
+.left-nav li span.icon_s5{
+    background-position: 0 -176px;
+}
+.left-nav li span.icon_s6{
+    background-position: 0 -220px;
+}
+.left-nav li span.icon_s7{
+    background-position: 0 -264px;
+}
+
+.left-nav .li_1 a:hover,.left-nav .li_2 a:hover,.left-nav .li_3 a:hover,.left-nav .li_4 a:hover,.left-nav .li_5 a:hover,.left-nav .li_6 a:hover,.left-nav .li_7 a:hover{
+    background: #3776d3;
+}
+.left-nav li.li_1:hover span.icon_s1{
+    background-position: -46px 0px;
+}
+.left-nav li.li_2:hover span.icon_s2{
+    background-position: -46px -44px;
+}
+.left-nav li.li_3:hover span.icon_s3{
+    background-position: -46px -88px;
+}
+.left-nav li.li_4:hover span.icon_s4{
+    background-position: -46px -132px;
+}
+.left-nav li.li_5:hover span.icon_s5{
+    background-position: -46px -176px;
+}
+.left-nav li.li_6:hover span.icon_s6{
+    background-position: -46px -220px;
+}
+.left-nav li.li_7:hover span.icon_s7{
+    background-position: -46px -264px;
+}

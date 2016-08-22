@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=9">
+    <meta name="keywords" content="元器件交易网,电子,IC,IC网,IC交易网,电子元器件,中发电子市场,元器件交易" />
+    <meta name="description" content="元器件交易网（cecb2b.com）是中发网全新升级平台，立足电子元器件行业，在全国十大专业电子市场联盟的基础上，集合线下及线上最广大的买家和卖家资源，利用最先进的互联网技术和产品服务，全面提升电子元器件企业的价值体系，元器件交易网是电子市场联盟唯一指定商务平台。“实体市场，全程保障”，这是元器件交易网成为电子行业最优秀电子商务平台的根本所在，也是元器件交易网针对广大采购用户提出的安全交易承诺。" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/header_foot.css">
+    <link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_1471621056_7883842.css">
+    <!-- <link href="http://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"> -->
+    <script src="http://images.cecb2b.com/js/common_new/jquery-1.8/jquery.js" type="text/javascript"></script>
+    <script type="text/javascript" src="http://images.cecb2b.com/js/common_new/common_top_2014.js"></script>
+    <script type="text/javascript" src='js/commonstt.js'></script>
+    <script src='js/jquery.SuperSlide.2.1.1.js'></script>
+
+    <title>元器件交易网-解决方案-需求列表页</title>
+    <body>
+        <!-- ie7error提示 -->
+        <!--[if lte IE 7]>
+        <div id="ie7-warning">您正在使用 Internet Explorer 7，在本页面的显示效果可能有差异。建议您升级到 <a href="http://www.microsoft.com/china/windows/internet-explorer/" target="_blank">Internet Explorer 9</a> 或以下浏览器： <a href="http://www.mozillaonline.com/">Firefox</a> / <a href="http://www.google.com/chrome/?hl=zh-CN">Chrome</a> / <a href="http://www.apple.com.cn/safari/">Safari</a> / <a href="http://www.operachina.com/">Opera</a>
+        </div>
+        <script type="text/javascript">
+            function position_fixed(el, eltop, elleft){ 
+            if(!window.XMLHttpRequest) 
+                window.onscroll = function(){ 
+                el.style.top = (document.documentElement.scrollTop + eltop)+"px"; 
+                el.style.left = (document.documentElement.scrollLeft + elleft)+"px"; 
+                } 
+                else el.style.position = "fixed"; 
+                }
+                position_fixed(document.getElementById("ie7-warning"),0, 0);
+        </script>
+        <![endif]-->
+        <div id="top">
+            <div class="tops">
+                <div class="leftc">
+                    <div class="mobile">
+                        <i class="icon_m"></i>
+                        <a href="http://www.cecb2b.com/zt/wap_dx.shtml" target="_blank">手机版</a>
+                        <i class="line"></i>
+                    </div>
+                    <div class="re_old"><a href="http://www.cecb2b.com/index_2013.shtml">返回旧版首页</a></div>
+                </div>
+                <div class="rightc">
+                    <div class="downlist1">
+                        <span class="s_cs">网站地图</span>
+                    </div>
+                    <div class="downlist1">
+                        <a href="http://meng.cecb2b.com/" class="s_cs">客服中心<i></i></a>
+                        <ul style="display: none;">
+                            <li><a href="http://www.cecb2b.com/help/login.shtml" target="_blank">新手上路</a></li>
+                            <li><a href="http://www.cecb2b.com/help/buy_process.shtml" target="_blank">买家帮助</a></li>
+                            <li><a href="http://www.cecb2b.com/help/supply_process.shtml" target="_blank">卖家帮助</a></li>
+                            <li><a href="http://www.cecb2b.com/help/about_contact.shtml" target="_blank">联系我们</a></li>
+                        </ul>
+                    </div>
+                    <!-- 有内容链接情况下网站导航 -->
+                    <div class="downlist1" id="selluser">
+                        <a href="http://www.cecb2b.com/member/index.do" class="s_cs">会员服务<i></i></a>
+                        <ul>
+                            <li id="ordermanage" style="display:none"><a href="http://www.cecb2b.com/member/index.do?actname=mo_myReceivedOrder_supply.do" target="_blank" rel="nofollow">我的销售订单</a></li>
+                            <li><a href="http://www.cecb2b.com/member/index.do?actname=inquiryReceivedPage.do" target="_blank" rel="nofollow">新收到的询价</a></li>
+                            <li><a href="http://www.cecb2b.com/member/index.do?actname=ic_inventory_manage.jsp" target="_blank" rel="nofollow">上传IC库存</a></li>
+                            <li><a href="http://www.cecb2b.com/member/index.do?actname=nic_inventory_manage.jsp" target="_blank" rel="nofollow">上传非IC库存</a></li>
+                            <li><a href="http://www.cecb2b.com/member/index.do?actname=refreshInvTime.do" target="_blank" rel="nofollow">更新IC库存</a></li>
+                            <li><a href="http://www.cecb2b.com/member/index.do?actname=nIcInvRefresh.do?submenu=3" target="_blank" rel="nofollow">更新非IC库存</a></li>
+                        </ul>
+                    </div>
+                    <div class="mes" id="nologin">
+                        <a href="${ctx}/login.shtml" target="_blank" rel="nofollow">登录</a>&nbsp;&nbsp;<a href="http://www.cecb2b.com/register/registe.jsp" target="_blank" rel="nofollow">免费注册</a>&nbsp;
+                    </div>
+                    <div class="shopCart">
+                        <a href="http://www.cecb2b.com/mall/cart.do" target="_blank" rel="nofollow">
+                    加入购物车
+                    <span></span>
+                    <i id="shopcartnums">0</i>
+                </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 头部logo -->
+        <div class="header">
+            <div class="container">
+                <div class="logo-group">
+                    <h1><a class="logo" href="/" target="_self"><img src="./images/logo.gif" alt="元器件交易网"></a></h1><span class="logo-title"><a target="_blank" href="">解决方案</a></span></div>
+                    <!-- 搜索 -->
+                <div class="search" id="search"></div>
+                <div class="tj-logo">
+                    <a target="_blank" href="http://tj.cecb2b.com/"><img src="./images/zfzz.gif"></a>
+                </div>
+            </div>
+        </div>
+        <!-- banner -->
+        <div class="silier-wrap">
+            <div class="container">
+                <div class="uislider" id="uislider">
+                    <ul class="uislider-content" style="">
+                        <li>
+                            <a href=""><img style="width: 870px;height: 300px;" src="./images/banner1.jpg"></a>
+                        </li>
+                        <li>
+                            <a href=""><img style="width: 870px;height: 300px;" src="http://dfsimg2.hqewimg.com/group1/M00/00/05/wKhk71dOC_eAYWcyAADr6ChZ5P0153.png"></a>
+                        </li>
+                        <li>
+                            <a href=""><img style="width: 870px;height: 300px;" src="http://dfsimg2.hqewimg.com/group1/M00/00/10/wKhk71ewqh6AKJhVAACjTmFX8Ys924.png"></a>
+                        </li>
+                        <li>
+                            <a href=""><img style="width: 870px;height: 300px;" src="http://dfsimg2.hqewimg.com/group1/M00/00/10/wKhk7VezXiKAYWHIAADgXswT-jo091.png"></a>
+                        </li>
+                        <li>
+                            <a href=""><img style="width: 870px;height: 300px;" src="http://dfsimg2.hqewimg.com/group1/M00/00/10/wKhk71ewqh6AKJhVAACjTmFX8Ys924.png"></a>
+                        </li>
+                        <li>
+                            <a href=""><img style="width: 870px;height: 300px;" src="http://dfsimg2.hqewimg.com/group1/M00/00/10/wKhk7VezXiKAYWHIAADgXswT-jo091.png"></a>
+                        </li>
+                    </ul>
+                    <div class="uislider-pager">
+                        <div class="next">&gt;</div>
+                        <div class="prev">&lt;</div>
+                    </div>
+                    <ol class="dots">
+                        <li class="dot active">1</li>
+                        <li class="dot">2</li>
+                        <li class="dot">3</li>
+                        <li class="dot">4</li>
+                        <li class="dot">5</li>
+                        <li class="dot">6</li>
+                    </ol>
+                </div>
+                <div class="service-menu">
+                    <div class="service-wrap">
+                        <h2 class="menu-tit">为您服务</h2>
+                        <p class="menu-adv">为您提供最全最专业方案<br>帮您寻找更多优质合作机会</p>
+                        <div class="menu-clear"></div>
+                        <a target="_blank" href="">发布方案</a>
+                        <!-- <a target="_blank" href="">提交需求</a> -->
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <!-- 内容开始 -->
+        <div class="container">
+            <div class="solution-wrap solution-wrap-t">
+                <div class="solution-wrap-l" id="solutionTab">
+                    <div class="solution-cont">
+                        <div class="solution-cont-list">
+                            <h2><a href="">电动车并网逆变机</a></h2>
+                            <p class="list-tit">需求方：<span>北京美信科技有限公司</span>&nbsp&nbsp&nbsp&nbsp&nbsp时间：<span>2016-07-05</span></p>
+                            <p>规格说明：<span>有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。有多重保护功能，有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。 人性化的画面。</span></p>
+                            <p><span>需求时间：2016-11-01到2017-01-01</span></p>
+                        </div> 
+                        <div class="solution-cont-list">
+                            <h2><a href="">电动车并网逆变机</a></h2>
+                            <p class="list-tit">需求方：<span>北京美信科技有限公司</span>&nbsp&nbsp&nbsp&nbsp&nbsp时间：<span>2016-07-05</span></p>
+                            <p>规格说明：<span>有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。有多重保护功能，有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。 人性化的画面。</span></p>
+                            <p><span>需求时间：2016-11-01到2017-01-01</span></p>
+                        </div> 
+                        <div class="solution-cont-list">
+                            <h2><a href="">电动车并网逆变机</a></h2>
+                            <p class="list-tit">需求方：<span>北京美信科技有限公司</span>&nbsp&nbsp&nbsp&nbsp&nbsp时间：<span>2016-07-05</span></p>
+                            <p>规格说明：<span>有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。有多重保护功能，有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。 人性化的画面。</span></p>
+                            <p><span>需求时间：2016-11-01到2017-01-01</span></p>
+                        </div> 
+                        <div class="solution-cont-list">
+                            <h2><a href="">电动车并网逆变机</a></h2>
+                            <p class="list-tit">需求方：<span>北京美信科技有限公司</span>&nbsp&nbsp&nbsp&nbsp&nbsp时间：<span>2016-07-05</span></p>
+                            <p>规格说明：<span>有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。有多重保护功能，有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。 人性化的画面。</span></p>
+                            <p><span>需求时间：2016-11-01到2017-01-01</span></p>
+                        </div> 
+                        <div class="solution-cont-list">
+                            <h2><a href="">电动车并网逆变机</a></h2>
+                            <p class="list-tit">需求方：<span>北京美信科技有限公司</span>&nbsp&nbsp&nbsp&nbsp&nbsp时间：<span>2016-07-05</span></p>
+                            <p>规格说明：<span>有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。有多重保护功能，有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。 人性化的画面。</span></p>
+                            <p><span>需求时间：2016-11-01到2017-01-01</span></p>
+                        </div> 
+                        <div class="solution-cont-list">
+                            <h2><a href="">电动车并网逆变机</a></h2>
+                            <p class="list-tit">需求方：<span>北京美信科技有限公司</span>&nbsp&nbsp&nbsp&nbsp&nbsp时间：<span>2016-07-05</span></p>
+                            <p>规格说明：<span>有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。有多重保护功能，有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。 人性化的画面。</span></p>
+                            <p><span>需求时间：2016-11-01到2017-01-01</span></p>
+                        </div> 
+                        <div class="solution-cont-list">
+                            <h2><a href="">电动车并网逆变机</a></h2>
+                            <p class="list-tit">需求方：<span>北京美信科技有限公司</span>&nbsp&nbsp&nbsp&nbsp&nbsp时间：<span>2016-07-05</span></p>
+                            <p>规格说明：<span>有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。有多重保护功能，有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。有多重保护功能， 人性化的画面。 人性化的画面。</span></p>
+                            <p><span>需求时间：2016-11-01到2017-01-01</span></p>
+                        </div> 
+                    </div>
+
+                    <div class="load-more">
+                        <a href="">加载更多</a>
+                    </div>
+                    
+                </div>
+                <div class="solution-wrap-r">
+                    <div class="solution-about">
+                        <h2>联系我们</h2>
+                        <p>QQ：4006265285<br>电 话： 010－62636888<br>Email：kefu@cecb2b.com<br>联系我们获取更多方案和商务合作机会</p>
+                    </div>
+                   <!--  <div class="solution-need">
+                        <h2>最新需求</h2>
+                        <div class="list-area">
+                             <div class="need-list">
+                                <h3><a href="">电动车并网逆变机</a></h3>
+                                <p><a href="">通讯接口 CAN＆485并机数量600个，通讯告警告警与状态通过 CANB32 总线</a></p>
+                            
+                            </div>
+                            <div class="need-list">
+                                <h3><a href="">电动车并网逆变机</a></h3>
+                                <p><a href="">通讯接口 CAN＆485并机数量600个，通讯告警告警与状态通过 CANB32 总线</a></p>
+                            
+                            </div>
+                            <div class="need-list">
+                                <h3><a href="">电动车并网逆变机</a></h3>
+                                <p><a href="">通讯接口 CAN＆485并机数量600个，通讯告警告警与状态通过 CANB32 总线</a></p>
+                            
+                            </div>
+                            <div class="need-list">
+                                <h3><a href="">电动车并网逆变机</a></h3>
+                                <p><a href="">通讯接口 CAN＆485并机数量600个，通讯告警告警与状态通过 CANB32 总线</a></p>
+                            
+                            </div>
+                            <div class="look-more"><p><a href="" target="_blank">查看更多</a></p></div>
+                            
+                        </div> 
+                    </div> -->
+                </div>
+                
+            </div>
+            <div class="clear"></div>
+            <div class="foot-about">
+                <div class="div_list">
+                    <h3>关于我们</h3>
+                    <ul>
+                        <li><a href="" target="_blank">关于中发智造</a></li>
+                        <li><a href="" target="_blank">联系我们</a></li>
+                        <li><a href="" target="_blank">加入我们</a></li>
+                    </ul>
+                </div>
+                <div class="div_list">
+                    <h3>新手指南</h3>
+                    <ul>
+                        <li><a href="" target="_blank">免费注册</a></li>
+                        <li><a href="" target="_blank">买家入门</a></li>
+                        <li><a href="" target="_blank">卖家入门</a></li>
+                        <li><a href="" target="_blank">帮助中心</a></li>
+                    </ul>
+                </div>
+                <div class="div_list">
+                    <h3>交易保障</h3>
+                    <ul>
+                        <li><a href="" target="_blank">e投诉</a></li>
+                        <li><a href="" target="_blank">曝光台</a></li>
+                        <li><a href="" target="_blank">e担保</a></li>
+                    </ul>
+                </div>
+                <div class="div_list div_list1">
+                    <h3>生态服务</h3>
+                    <ul>
+                        <li><a href="" target="_blank">工程师社群</a></li>
+                        <li><a href="" target="_blank">科技成果</a></li>
+                        <li><a href="" target="_blank">知识产权专利</a></li>
+                        <li><a href="" target="_blank">解决方案</a></li>
+                        <li><a href="" target="_blank">会展服务</a></li>
+                        <li><a href="" target="_blank">金融服务</a></li>
+                    </ul>
+                </div>
+                <div class="div_list div_wx">
+                    <div class="div-list-l"><img src="./images/wx-ce.jpg"></div>
+                    <div><img src="./images/wx-ph.jpg"></div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="foot-add">
+            <div class="container">
+                <p><a href="">招聘信息</a><a href="">会员服务</a><a href="">广告服务</a><a href="">帮助中心</a><a href="">网站地图</a></p>
+                <p class="copy" style=" position:relative;"> ©2016 元器件交易网 &nbsp;京公网安备 11010802020315号 &nbsp;京ICP证041622号-2 <img width="18" height="22" alt="" src="http://images.cecb2b.com/images/common/icon_footer.gif"> 版权所有
+                    <br>
+                </p>
+            </div>
+        </div>
+        <!-- 右下角弹窗 -->
+        <!-- <div id="webim">
+            <dl class="dlstyle">
+                <dt class="dtstyle">
+                    <span id="webimclosebutton" title="点击关闭">关闭</span></dt>
+            </dl>
+            <dl>
+                <dd>
+                    <a href="http://www.itcast.cn/subject/summer/index.shtml?a201" target="_blank" id="webim_link"><img src="http://dfsimg2.hqewimg.com/group1/M00/00/0E/wKhk7letJliAbEqfAABG4ArKTQI540.jpg" style="height: 188px; width: 280px"></a>
+                </dd>
+            </dl>
+        </div> -->
+        <script type="text/javascript" src="js/base.js"></script>
+    </body>
+
+</html>
