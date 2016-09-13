@@ -39,7 +39,7 @@
         $("#J_inquirySuperBuyer").hqTabs("mouseover")
         $("#WisdomCity").hqTabs("mouseover")
         $("#J_serviceTab").hqTabs("mouseover")
-        $("#solutionTab").hqTabs("mouseover")
+        $("#solutionTab").hqTabs("click")
         $("#search").hqTabs("click")
         $(function() {
             // var uislider = $('.uislider').unslider({
